@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+    node:
+        image: node:alpine
+        working_dir: /var/www/app
+        command: "npm run dev"
+        ports:
+            - "3000:3000"
+        environment:
+            - HOST=0.0.0.0
+        volumes:
+            - ./www:/var/www
