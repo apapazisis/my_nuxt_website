@@ -1,0 +1,21 @@
+{
+    "name": "src",
+    "version": "1.0.0",
+    "description": "Web Entwickler Laravel, Vue.js, Shopware 6, Golang | Apostolos Papazisis",
+    "author": "Apostolos Papazisis",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate"
+    },
+    "dependencies": {
+        "node-sass": "^4.13.1",
+        "nuxt": "^2.12.2",
+        "sass-loader": "^8.0.2",
+        "tailwindcss": "^1.2.0",
+        "vue-i18n": "^8.17.0"
+    },
+    "devDependencies": {}
+}
